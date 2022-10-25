@@ -4,7 +4,7 @@
 
 @layer components{
   .icon{
-    @apply fill-white text-white stroke-white stroke-2
+    @apply fill-white text-white stroke-white
   }
 }
 

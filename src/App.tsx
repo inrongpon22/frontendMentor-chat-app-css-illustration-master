@@ -24,7 +24,9 @@ function App() {
                 <div className="absolute w-[10rem] h-[2.5rem] bg-white rounded-[2rem] left-[4rem] -top-[1.3rem]"></div>
                 <div className="flex justify-between items-center text-white font-rubik pt-6 px-3">
                   <div className="flex items-center">
-                    <GrPrevious color="white" fill="white" />
+                  <svg xmlns="http://www.w3.org/2000/svg" id="Outline" viewBox="0 0 24 24" width="15" height="15" fill="#fff">
+                    <path d="M17.17,24a1,1,0,0,1-.71-.29L8.29,15.54a5,5,0,0,1,0-7.08L16.46.29a1,1,0,1,1,1.42,1.42L9.71,9.88a3,3,0,0,0,0,4.24l8.17,8.17a1,1,0,0,1,0,1.42A1,1,0,0,1,17.17,24Z"/>
+                  </svg>
                     <img
                       src={avatar}
                       alt=""
@@ -83,7 +85,9 @@ function App() {
                   placeholder="Type a message..."
                   className="pl-3"
                 />
-                <GrFormNext className="icon bg-[#3E2753] w-9 h-9 rounded-full" />
+                <svg xmlns="http://www.w3.org/2000/svg" className="bg-[#3E2753] w-9 h-9 rounded-full" id="Outline" viewBox="0 0 24 24" width="15" height="15" fill="white">
+                  <path d="M15.4,9.88,10.81,5.29a1,1,0,0,0-1.41,0,1,1,0,0,0,0,1.42L14,11.29a1,1,0,0,1,0,1.42L9.4,17.29a1,1,0,0,0,1.41,1.42l4.59-4.59A3,3,0,0,0,15.4,9.88Z"/>
+                </svg>
               </div>
             </div>
           </section>
